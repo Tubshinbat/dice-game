@@ -89,7 +89,7 @@ document.querySelector(".btn-hold").addEventListener("click", function() {
   document.getElementById("current-" + activePlayer).textContent = roundScore;
 
   // Уг тоглогч 100 оноотой болсон тохиолдолд хожсон болгоно
-  if (scores[activePlayer] >= 10) {
+  if (scores[activePlayer] >= 100) {
     isNewGame = false;
     // Ялагч гэсэн текст гаргах
     document.getElementById("name-" + activePlayer).textContent = "WINNER!!!";
